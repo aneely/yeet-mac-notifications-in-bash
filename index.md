@@ -1,4 +1,4 @@
-_Keep Your Hands on Your Keyboard and Keep Going_
+_Shell scripts for dismissing and clearing notifications_
 
 ## TL;DR:
 
@@ -41,7 +41,7 @@ end closeNotif
 END
 ```
 
-### Clear out Notification Center on Mojave
+### Clear out Notification Center on Mojave and Catalina
 
 Note: this will also clear any active banner notifications that also appear in the notifications tab. This is adapted from another [SE answer](https://apple.stackexchange.com/a/374455).
 
@@ -155,7 +155,7 @@ Not much and not often, but I'm [@ravinglogic](https://twitter.com/ravinglogic) 
 
 ### JavaScript code for an Automator action for BigSur
 
-I also don't have an M1 Mac, so being on Big Sur isn't mandatory or even desireable for me even on my personal equipment since everything works and Mojave is still getting security updates.
+I don't have an M1 Mac, so being on Big Sur isn't mandatory or even desireable for me. This is also true on my personal equipment since everything works and Mojave is still getting security updates.
 
 But I'm tucking this here because I probably will have one at some point and [some people](https://apple.stackexchange.com/a/413495) on Stack Exchange are reporting the AppleScript to clear notifications doesn't work, but supposedly this [gist of JavaScript code](https://gist.github.com/lancethomps/a5ac103f334b171f70ce2ff983220b4f) does as a step in an Automator action. Plus it's still fresh as of late Feb 2021.
 
