@@ -1,6 +1,6 @@
 # Yeet Mac Notifications Into the Void from the Terminal
 
-_Shell scripts for dismissing and clearing notifications on macOS_
+_Keep Your Hands on Your Keyboard and Keep Going_
 
 ## TL;DR:
 
