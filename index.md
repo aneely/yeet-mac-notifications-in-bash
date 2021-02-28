@@ -80,7 +80,7 @@ END
 
 ## Caveats
 
-- The words in this article make sense individually but not necessarily together or in this order.
+- The words in this page make sense individually but not necessarily together or in this order.
 - Pasting strings of text from random websites into a shell and running them is a terrible idea that I definitely don't do all the time. (I usually skim them first.)
 - Seriously though, sanitize text from your clipboard before it touches your shell if you copied it from a browser.
 - Don't do this to a production Mac in a multiuser environment. If you do this and then blame me, I'm going to turn off all the lights and pretend I'm not here when they knock on my door.
