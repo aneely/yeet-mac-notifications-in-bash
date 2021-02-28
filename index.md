@@ -1,4 +1,4 @@
-# Keep Your Hands on Your Keyboard and Keep Going
+_Keep Your Hands on Your Keyboard and Keep Going_
 
 ## TL;DR:
 
@@ -151,7 +151,7 @@ It's hard problem to design for broadly and notifications have to distract to do
 
 Not much and not often, but I'm [@ravinglogic](https://twitter.com/ravinglogic) on Twitter.
 
-## ~Miscellaneous~ Bonus Content
+## ~~Random~~ Bonus Content
 
 ### JavaScript code for an Automator action for BigSur
 
