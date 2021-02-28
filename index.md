@@ -1,6 +1,4 @@
-# Yeet Mac Notifications Into the Void from the Terminal
-
-_Keep Your Hands on Your Keyboard and Keep Going_
+# Keep Your Hands on Your Keyboard and Keep Going
 
 ## TL;DR:
 
