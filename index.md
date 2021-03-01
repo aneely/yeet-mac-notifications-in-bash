@@ -1,4 +1,5 @@
-_Shell scripts for dismissing and clearing notifications_
+![](images/too-many-notifications.gif)
+_Shell scripts for dismissing and clearing notifications like this_
 
 ## TL;DR:
 
@@ -91,7 +92,7 @@ END
 
 ### But, ...why?
 
-![](but-why-chonky.gif)
+![](images/but-why-chonky.gif)
 
 I'm trying to spend more time staying in the terminal and focusing on work, and dismissing notifications with the cursor was getting in my way.
 
