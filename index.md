@@ -147,7 +147,7 @@ Automator is a totally valid approach and a system-wide keyboard shortcut that r
 
 ### But AppleScript nitpick!
 
-If you want to share some AppleScript, please feel free! While I probably won't ever do a deep-dive into being an AppleScript expert, packing bits of it up like this to trigger things in GUI land is turning out to be useful. For now, I'm just adapting other peoples' code enough to turn this into a problem I can solve from `bash` or `zsh`. Throwing AppleScript code at `osascript` is a means to an end.
+If you want to share some AppleScript, [please feel free](https://twitter.com/ravinglogic)! While I probably won't ever do a deep-dive into being an AppleScript expert, packing bits of it up like this to trigger things in GUI land is turning out to be useful. For now, I'm just adapting other peoples' code enough to turn this into a problem I can solve from `bash` or `zsh`. Throwing AppleScript code at `osascript` is a means to an end.
 
 ### This doesn't work for me
 
