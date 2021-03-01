@@ -91,6 +91,8 @@ END
 
 ### But, ...why?
 
+![](but-why-chonky.gif)
+
 I'm trying to spend more time staying in the terminal and focusing on work, and dismissing notifications with the cursor was getting in my way.
 
 ### You know you can just reach up and...
