@@ -4,10 +4,11 @@ _Shell scripts for dismissing and clearing notifications like this_
 
 ## TL;DR:
 
-- You can use AppleScript to manipulate the GUI layer of macOS and the `osascript` command can run it from the terminal.
-- I've adapted two examples of AppleScript to dismiss banner notifications and clear out Notification Center.
+- You can use AppleScript to manipulate the GUI layer of macOS.
+- The`osascript` command can run it from the terminal. Try it! `osascript -e 'say "Never trust a fart."'`
+- I've adapted two AppleScript examples here: one dismisses banner notifications and one clears out Notification Center.
 - They work when run from Script Editor and could be turned into keyboard shortcuts with Automator.
-- I want to use the terminal instead, so I've wrapped them in shell scripts that can even be run as commands. 
+- I'd rather use the terminal instead, so I've wrapped them in shell scripts that can even be run as commands. 
 - If you'd like to dismiss nagging banners or empty the notifiations list, all while keeping your hands on the keyboard so you can stay in the terminal, this worked for me.
 - Caveats and "But, why?" further down this page, as are some rationalizations, excuses, and links.
 
@@ -15,7 +16,11 @@ _Shell scripts for dismissing and clearing notifications like this_
 
 ### Dismiss system alerts and banner notifications 
 
-Note: this works by clicking the first button on the banner or alert. Keep that in mind depending on your alert buttons. I found this on [Stack Exchange](https://apple.stackexchange.com/a/155736).
+![](images/dismiss-notification.gif)
+
+_Clear out a banner that popped up in the top-right and hung around_
+
+Note: this works by clicking the first button on the banner or alert. Keep that in mind depending on your alert buttons. I found this on [Stack Exchange](https://apple.stackexchange.com/a/155736). Works with more than one banner, too.
 
 ```
 #! /usr/bin/env bash
@@ -44,6 +49,11 @@ END
 ```
 
 ### Clear out Notification Center on Mojave and Catalina
+
+
+![](images/clear-notification-center.gif)
+
+_Clear any lingering banners out of the Notifications tab in the Notification Center sidebar_
 
 Note: this will also clear any active banner notifications that also appear in the notifications tab. This is adapted from another [SE answer](https://apple.stackexchange.com/a/374455).
 
@@ -107,7 +117,11 @@ If I'm at work and my hands are on the home row, I'm either in iTerm or can swit
 
 ### What's that cursed content on line 3?
 
-Much like the way Mark Zuckerberg's face keeps you from seeing the front of his skull, this syntax doesn't look elegant but it does the job. If you don't live in `bash`, `osascript << 'END' &>/dev/null` is doing a few things at once they need to happen on the same line.
+`osascript << 'END' &>/dev/null` is doing a few things at once and they need to happen on the same line.
+
+![](images/zuck-face.gif)
+
+_Much like the way Mark Zuckerberg's face keeps you from seeing the front of his skull, this syntax totally works but it's unsettling for normal people._
 
 `'END'` pairs with the bare `END` of the heredoc at the end of the script that's letting me write the AppleScript in multiple lines with indentation like a person with dignity who eats with utensils.
 
