@@ -115,13 +115,13 @@ Let me stop you there. Swiping away the banner takes my hands off the keyboard, 
 
 If I'm at work and my hands are on the home row, I'm either in iTerm or can switch to it immediately, so a terminal command works perfectly for me. A script can be made executable, e.g. `chmod +x "$scriptname"`, and dropped in `/usr/local/bin` to make it availabe in my `$PATH` as a command. (Maybe just leave the conventional `.sh` off the end of the filename.)
 
-### What's that cursed content on line 3?
-
-`osascript << 'END' &>/dev/null` is doing a few things at once and they need to happen on the same line.
+### What's that cursed content on line 3 of the scripts?
 
 ![](images/zuck-face.gif)
 
 _Much like the way Mark Zuckerberg's face keeps you from seeing the front of his skull, this syntax totally works but it's unsettling for normal people._
+
+`osascript << 'END' &>/dev/null` is doing a few things at once and they need to happen on the same line.
 
 `'END'` pairs with the bare `END` of the heredoc at the end of the script that's letting me write the AppleScript in multiple lines with indentation like a person with dignity who eats with utensils.
 
