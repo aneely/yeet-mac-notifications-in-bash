@@ -87,7 +87,7 @@ END
 - Works On My Machine, but I'm not on Big Sur. See the very end if you are and this doesn't work for you.
 - All code is covered under the GPHL, or Giant Pile of Hacks License, which guarantees nothing more than hacks, which may or may not be piled up to any specific size, gigantic or otherwise.
 
-## Valid Excuses for Common Concerns
+## Frequently Asked Questions
 
 ### But, ...why?
 
