@@ -1,4 +1,5 @@
 ![](images/too-many-notifications.gif)
+
 _Shell scripts for dismissing and clearing notifications like this_
 
 ## TL;DR:
